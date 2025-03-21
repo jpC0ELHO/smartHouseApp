@@ -12,7 +12,8 @@ public enum Regiao {
     BANHEIRO1("BANHEIRO1"),
     BANHEIRO2("BANHEIRO2F"),
     GARAGEM("GARAGEM"),
-    CORREDOR_GARAGEM("CORREDOR GARAGEM");
+    CORREDOR_GARAGEM("CORREDOR GARAGEM"),
+    AREA_DE_SERVICO("AREA DE SERVICO");
     private final String descricao;
 
     Regiao(String descricao){
